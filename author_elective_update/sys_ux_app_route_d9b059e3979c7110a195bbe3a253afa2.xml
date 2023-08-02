@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon>tree-view-long-outline</icon>
+        <name>Record default Service Relationships</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record">cda015e3979c7110a195bbe3a253af58</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>cmdb-service-relationships</route_type>
+        <screen_type display_value="Record default Service Relationships">b8b059e3979c7110a195bbe3a253af40</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:34</sys_created_on>
+        <sys_id>d9b059e3979c7110a195bbe3a253afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default Service Relationships</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_d9b059e3979c7110a195bbe3a253afa2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:34</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=d9b059e3979c7110a195bbe3a253afa2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1b934c591b83299cc8432f8dee4bcb02</instance_id>
+        <instance_name>dev174942</instance_name>
+        <name>sys_ux_app_route_d9b059e3979c7110a195bbe3a253afa2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config><description/><extension_point/><fields/><icon>tree-view-long-outline</icon><name>Record default Service Relationships</name><optional_parameters/><order>200</order><parent_macroponent display_value="Record">cda015e3979c7110a195bbe3a253af58</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id><route_type>cmdb-service-relationships</route_type><screen_type display_value="Record default Service Relationships">b8b059e3979c7110a195bbe3a253af40</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-02 21:23:34</sys_created_on><sys_id>d9b059e3979c7110a195bbe3a253afa2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record default Service Relationships</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_app_route_d9b059e3979c7110a195bbe3a253afa2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-02 21:23:34</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=d9b059e3979c7110a195bbe3a253afa2"/></record_update>]]></payload>
+        <payload_hash>1580818382</payload_hash>
+        <record_name>Record default Service Relationships</record_name>
+        <reverted_from/>
+        <source>bd0b7fdf97187110a195bbe3a253af88</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:34</sys_created_on>
+        <sys_id>d5b059e3979c7110a195bbe3a253afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b8227b960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:34</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>1db059e3269c71100d0b9e31c4e394a4</update_guid>
+        <update_guid_history>1db059e3269c71100d0b9e31c4e394a4:1580818382</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:29:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>3f020defd5d246b497ea9f069668c5c4</sys_id>
+        <sys_metadata>d9b059e3979c7110a195bbe3a253afa2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default Service Relationships</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_d9b059e3979c7110a195bbe3a253afa2</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_d9b059e3979c7110a195bbe3a253afa2">d5b059e3979c7110a195bbe3a253afa5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:29:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

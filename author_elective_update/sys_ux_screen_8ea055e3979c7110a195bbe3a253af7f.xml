@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record">cda015e3979c7110a195bbe3a253af58</macroponent>
+        <macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Record default - 3.0.0 preview.</name>
+        <order>9999</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen display_value="Record default">57c4eb371b858d10b81fdce7cc4bcb70</rollback_screen>
+        <screen_condition/>
+        <screen_type display_value="Record">9fc4eb371b858d10b81fdce7cc4bcb68</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ea055e3979c7110a195bbe3a253af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default - 3.0.0 preview.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_8ea055e3979c7110a195bbe3a253af7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:21</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=8ea055e3979c7110a195bbe3a253af7f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1b934c591b83299cc8432f8dee4bcb02</instance_id>
+        <instance_name>dev174942</instance_name>
+        <name>sys_ux_screen_8ea055e3979c7110a195bbe3a253af7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Record">cda015e3979c7110a195bbe3a253af58</macroponent><macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Record default - 3.0.0 preview.</name><order>9999</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen display_value="Record default">57c4eb371b858d10b81fdce7cc4bcb70</rollback_screen><screen_condition/><screen_type display_value="Record">9fc4eb371b858d10b81fdce7cc4bcb68</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-02 21:23:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8ea055e3979c7110a195bbe3a253af7f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record default - 3.0.0 preview.</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_screen_8ea055e3979c7110a195bbe3a253af7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-02 21:23:21</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=8ea055e3979c7110a195bbe3a253af7f"/></record_update>]]></payload>
+        <payload_hash>1449355896</payload_hash>
+        <record_name>Record default - 3.0.0 preview.</record_name>
+        <reverted_from/>
+        <source>bd0b7fdf97187110a195bbe3a253af88</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:21</sys_created_on>
+        <sys_id>4aa055e3979c7110a195bbe3a253afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b822458d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:21</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>8ea055e3539c711048985944d88f1da7</update_guid>
+        <update_guid_history>8ea055e3539c711048985944d88f1da7:1449355896</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:29:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>5868975296bb42579ed3b4f112121ff1</sys_id>
+        <sys_metadata>8ea055e3979c7110a195bbe3a253af7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default - 3.0.0 preview.</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_8ea055e3979c7110a195bbe3a253af7f</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_8ea055e3979c7110a195bbe3a253af7f">4aa055e3979c7110a195bbe3a253afa8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:29:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

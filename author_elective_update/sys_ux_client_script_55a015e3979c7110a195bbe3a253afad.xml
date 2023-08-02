@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Record">cda015e3979c7110a195bbe3a253af58</macroponent>
+        <name>secondary_items/items</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({ api }) {
+    if (api.context.app.record_secondary_values_location !== 'sidebar'
+        && api.data.gform && api.data.gform.nowRecordCommonHeader
+        && api.data.gform.nowRecordCommonHeader.secondaryItems
+        && api.data.gform.nowRecordCommonHeader.secondaryItems.length) {
+        const secondaryItems = api.data.gform.nowRecordCommonHeader.secondaryItems;
+        return secondaryItems.map((item) => {
+            let value = {};
+            if (item.type === "reference")
+                value = {
+                    "type": "text-link",
+                    "label": item.displayValue,
+                    "href": "javascript:void(0)",
+                    "value": item.sysId,
+                    "data": item
+                };
+            else if (item.type === "highlighted")
+                value = {
+                    "type": "highlighted-value",
+                    "label": item.displayValue,
+                    "status": item.colorName,
+                    "showIcon": item.showIcon,
+                    "value": item.sysId,
+                    "data": item
+                };
+            else
+                value = {
+                    "type": "string",
+                    "value": item.displayValue,
+                    "data": item
+                };
+
+            return {
+                "label": item.fieldLabel,
+                "value": value
+            };
+        });
+    }
+    return [];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:18</sys_created_on>
+        <sys_id>55a015e3979c7110a195bbe3a253afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>secondary_items/items</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_55a015e3979c7110a195bbe3a253afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:18</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1b934c591b83299cc8432f8dee4bcb02</instance_id>
+        <instance_name>dev174942</instance_name>
+        <name>sys_ux_client_script_55a015e3979c7110a195bbe3a253afad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Record"&gt;cda015e3979c7110a195bbe3a253af58&lt;/macroponent&gt;&lt;name&gt;secondary_items/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({ api }) {
+    if (api.context.app.record_secondary_values_location !== 'sidebar'
+        &amp;&amp; api.data.gform &amp;&amp; api.data.gform.nowRecordCommonHeader
+        &amp;&amp; api.data.gform.nowRecordCommonHeader.secondaryItems
+        &amp;&amp; api.data.gform.nowRecordCommonHeader.secondaryItems.length) {
+        const secondaryItems = api.data.gform.nowRecordCommonHeader.secondaryItems;
+        return secondaryItems.map((item) =&gt; {
+            let value = {};
+            if (item.type === "reference")
+                value = {
+                    "type": "text-link",
+                    "label": item.displayValue,
+                    "href": "javascript:void(0)",
+                    "value": item.sysId,
+                    "data": item
+                };
+            else if (item.type === "highlighted")
+                value = {
+                    "type": "highlighted-value",
+                    "label": item.displayValue,
+                    "status": item.colorName,
+                    "showIcon": item.showIcon,
+                    "value": item.sysId,
+                    "data": item
+                };
+            else
+                value = {
+                    "type": "string",
+                    "value": item.displayValue,
+                    "data": item
+                };
+
+            return {
+                "label": item.fieldLabel,
+                "value": value
+            };
+        });
+    }
+    return [];
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-02 21:23:18&lt;/sys_created_on&gt;&lt;sys_id&gt;55a015e3979c7110a195bbe3a253afad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;secondary_items/items&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_55a015e3979c7110a195bbe3a253afad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-02 21:23:18&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1394297614</payload_hash>
+        <record_name>secondary_items/items</record_name>
+        <reverted_from/>
+        <source>bd0b7fdf97187110a195bbe3a253af88</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:23:22</sys_created_on>
+        <sys_id>5ea095e3979c7110a195bbe3a253af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b8224a290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:23:22</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d2a095e39e9c71108e7d0a19082ec609</update_guid>
+        <update_guid_history>d2a095e39e9c71108e7d0a19082ec609:1394297614,16a095e3589c71107cd6be47dd904502:1701798029,79a055e3709c7110e005052362a75b6d:1394297614,d9a015e3d09c711073403c576961b4b0:613803421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 21:29:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>49232ed721a149279db97854e567cfe9</sys_id>
+        <sys_metadata>55a015e3979c7110a195bbe3a253afad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>secondary_items/items</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_55a015e3979c7110a195bbe3a253afad</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_55a015e3979c7110a195bbe3a253afad">5ea095e3979c7110a195bbe3a253af09</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 21:29:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
